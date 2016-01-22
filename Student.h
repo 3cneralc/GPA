@@ -30,3 +30,5 @@ public:
     void setCreditUnits(int creditUnits);
     int getCreditUnits();
 };
+
+#endif
