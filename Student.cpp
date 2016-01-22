@@ -2,6 +2,8 @@
 #include "Student.h"
 using namespace std;
 
+Student::Student(){}
+
 void Student::setStudentName(string name) {
     studentName = name;
 }
