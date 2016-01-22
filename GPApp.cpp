@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
 #include "Module.h"
+#include "Student.h"
 
 using namespace std;
 
 int main(){
     
     Module mod;
+    Student stud;
     
     string name;
     string code;
