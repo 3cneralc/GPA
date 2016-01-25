@@ -13,6 +13,9 @@ int main(){
     string name;
     string code;
     string str;
+    
+    char grade;
+    
     int cu;
     
     vector<string>sName;
@@ -37,6 +40,16 @@ int main(){
     mod.setSubjectWeight(cu);
     sCU.push_back(cu);
     mod.pushSubjectCreditUnitsToVector(sCU);
+    
+    cout << "Enter Student Name: ";
+    getline(cin,name);
+    
+    cout << "Enter Module Subject: ";
+    getline(cin,name);
+    
+    cout << "Enter Grade: "
+    getline(cin, grade);
+    
     
     return 0;
 }
